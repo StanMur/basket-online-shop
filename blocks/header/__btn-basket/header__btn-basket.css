@@ -1,0 +1,19 @@
+.header__btn-basket {
+    outline: none;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    border: none;
+    width: 32px;
+    height: 32px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 32px;
+    -webkit-transition: 300ms ease-in-out;
+    -o-transition: 300ms ease-in-out;
+    transition: 300ms ease-in-out;
+    margin: 0 -4px 0 3px;
+    padding-top: 5px;
+  }
+  
+  .header__btn-basket:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }

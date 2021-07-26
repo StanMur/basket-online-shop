@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .products__like-icon {
+    width: 18px;
+    height: 17px;
+  }
+}

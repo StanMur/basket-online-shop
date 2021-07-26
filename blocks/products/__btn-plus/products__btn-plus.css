@@ -1,0 +1,19 @@
+.products__btn-plus {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products__btn-plus:hover path {
+  fill: #508b8c;
+}
+
+@media (max-width: 767px) {
+  .products__btn-plus {
+    width: 23px;
+  }
+}

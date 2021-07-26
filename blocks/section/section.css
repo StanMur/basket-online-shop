@@ -1,0 +1,15 @@
+.section {
+  margin: 116px auto 83px;
+}
+
+@media (max-width: 1279px) {
+  .section {
+    margin: 93px auto 63px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section {
+    margin: 75px auto 44px;
+  }
+}

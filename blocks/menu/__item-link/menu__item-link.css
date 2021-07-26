@@ -1,0 +1,16 @@
+.menu__item-link {
+  text-decoration: none;
+  font-family: "Releway", Arial, sans-serif; /*этот шрифт шрифт не моноширинный в отличии от РОБОТО, поэтому я на ховере не стал ставить bold, иначе он скачет, кровь с глаз идет. А ограничивать каждый пункт по ширине в данном случае счел нецелесообразным*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #101010;
+  -webkit-transition: 300ms ease-in-out;
+  -o-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+.menu__item-link:hover {
+  font-size: 16px;
+  color: #508b8c;
+}

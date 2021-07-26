@@ -1,0 +1,19 @@
+.products__btn-minus {
+  border: none;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.products__btn-minus:hover path {
+    fill: #508b8c;
+  }
+
+  @media (max-width: 767px) {
+    .products__btn-minus {
+      width: 23px;
+    }
+  }  

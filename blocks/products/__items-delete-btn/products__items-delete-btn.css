@@ -1,0 +1,19 @@
+.products__items-delete-btn {
+  border: none;
+  fill: #000;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  outline: none;
+  min-width: 23px;
+  min-height: 21px;
+}
+
+.products__items-delete-btn:hover path {
+  fill: #508b8c;
+}
+
+@media (max-width: 767px) {
+  .products__items-delete-btn {
+    margin: -11px 0 13px 0;
+  }
+}

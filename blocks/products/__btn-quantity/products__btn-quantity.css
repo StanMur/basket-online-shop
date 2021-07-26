@@ -1,0 +1,13 @@
+.products__btn-quantity {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #404040;
+}
+
+@media (max-width: 767px) {
+  .products__btn-quantity {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,22 @@
+.footer__btn-call {
+  width: 197px;
+  height: 43px;
+  border: none;
+  background: #508b8c;
+  border-radius: 24px;
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fafafa;
+  margin-right: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 25px;
+  cursor: pointer;
+}

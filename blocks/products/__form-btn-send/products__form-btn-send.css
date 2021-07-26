@@ -1,0 +1,29 @@
+.products__form-btn-send {
+  width: 404px;
+  height: 48px;
+  background: #508b8c;
+  border-radius: 36px;
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  margin-top: 36px;
+  cursor: pointer;
+}
+
+@media (max-width: 1279px) {
+  .products__form-btn-send {
+    width: 200px;
+    margin: 36px -9px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .products__form-btn-send {
+    width: 100%;
+    margin: 36px 0 0;
+  }
+}

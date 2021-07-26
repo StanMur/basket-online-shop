@@ -1,0 +1,32 @@
+.footer__buttons-column {
+  -ms-flex-preferred-size: 556px;
+  flex-basis: 556px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+@media (max-width: 1279px) {
+  .footer__buttons-column {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    margin: -11px -8px 0 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__buttons-column {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+}

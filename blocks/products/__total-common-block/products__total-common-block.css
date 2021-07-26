@@ -1,0 +1,17 @@
+.products__total-common-block {
+  width: 400px;
+  margin: 24px auto 0;
+}
+
+@media (max-width: 1279px) {
+  .products__total-common-block {
+    width: 664px;
+  }
+}
+
+@media (max-width: 767px) {
+  .products__total-common-block {
+    width: 320px;
+    margin-top: 14px;
+  }
+}

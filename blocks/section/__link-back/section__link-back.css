@@ -1,0 +1,16 @@
+.section__link-back {
+  text-decoration: none;
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #404040;
+  position: relative;
+  margin-left: 31px;
+}
+
+.section__link-back::before {
+  content: url(/../../images/arrow.svg);
+  position: absolute;
+  left: -31px;
+}

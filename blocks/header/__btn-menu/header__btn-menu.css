@@ -1,0 +1,28 @@
+.header__btn-menu {
+  display: none;
+}
+
+@media (max-width: 1279px) {
+  .header__btn-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    width: 20px;
+    height: 14px;
+    background: rgba(0, 0, 0, 0);
+    margin: 0 -3px 0px 0;
+    padding: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__btn-menu {
+    position: absolute;
+    margin: 0;
+    top: 40px;
+    left: 0px;
+  }
+}

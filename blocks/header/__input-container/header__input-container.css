@@ -1,0 +1,19 @@
+.header__input-container {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
+
+  @media (max-width: 1279px) {
+    .header__input-container {
+      width: 257px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .header__input-container {
+      width: 160px;
+    }
+  }

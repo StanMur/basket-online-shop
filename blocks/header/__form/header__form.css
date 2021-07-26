@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .header__form {
+    width: 180px;
+    margin-right: 41px;
+  }
+}

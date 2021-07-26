@@ -1,0 +1,15 @@
+.products__info-name {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #000000;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+@media (max-width: 767px) {
+  .products__info-name {
+    line-height: 23px;
+  }
+}

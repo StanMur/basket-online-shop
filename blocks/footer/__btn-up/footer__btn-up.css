@@ -1,0 +1,14 @@
+.footer__btn-up {
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: #508b8c;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .footer__btn-up {
+    margin-right: 6px;
+  }
+}

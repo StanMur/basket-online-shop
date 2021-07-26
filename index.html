@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <title>Интернет-магазин</title>
+  </head>
+  <body class="body">
+    <div class="page">
+      <header class="header">
+        <div class="header__navigation">
+          <a class="header__logo-link" href="#"
+            ><img
+              class="logo logo_none_display"
+              src="images/Logo.svg"
+              alt="Логотип"
+          /></a>
+          <nav class="menu">
+            <ul class="menu__items">
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Каталог</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Акции</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Доставка</a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__item-link" href="#">Оплата</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__search">
+          <form class="header__form" action="#" name="send-form" novalidate="">
+            <fieldset class="header__input-container">
+              <input
+                class="header__form-name"
+                type="text"
+                name="name"
+                id="username"
+                value=""
+                placeholder="Поиск"
+                minlength="2"
+                maxlength="40"
+                required=""
+              />
+              <button class="header__form-btn" type="submit">
+                <img
+                  class="header__form-icon-btn"
+                  src="images/search-icon.svg"
+                  alt="Поиск"
+                />
+              </button>
+            </fieldset>
+          </form>
+          <button class="header__btn-login">
+            <img src="images/men-icon.svg" alt="Вход" />
+          </button>
+          <button class="header__btn-basket">
+            <img src="images/basket.svg" alt="Корзина" />
+          </button>
+        </div>
+        <button class="header__btn-menu">
+          <img src="images/menu-icon.svg" alt="Меню" />
+        </button>
+      </header>
+      <main class="content">
+        <section class="section">
+          <a href="#" class="section__link-back">назад</a>
+          <h1 class="section__title">Корзина</h1>
+        </section>
+        <section class="products">
+          <ul class="products__items">
+            <li class="products__item">
+              <img
+                class="products__items-img"
+                src="images/photo-camera.png"
+                alt="Фотоаппарат"
+              />
+              <div class="products__info">
+                <a class="products__info-name" href="#">
+                  Фотоаппарат зеркальный Nikon D3400 + AF-P 18-55 VR Black
+                </a>
+                <p class="products__info-article-number">Арт.: Т110</p>
+              </div>
+              <p class="products__info-prices">
+                <span class="products__info-price-new"
+                  >28 490,50
+                  <span class="products__info-prices-currency">₽</span></span
+                >
+                <span class="products__info-price-old"
+                  >29 990,00
+                  <span class="products__info-prices-currency">₽</span></span
+                >
+              </p>
+              <div class="products__actions">
+                <div class="products__block-like-delete">
+                  <button class="products__like-btn" type="button">
+                    <svg
+                      class="products__like-icon"
+                      width="24"
+                      height="22"
+                      viewBox="0 0 24 22"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7.65065 2.77802C6.36965 2.77802 5.08981 3.24119 4.11448 4.16869C3.18115 5.05769 2.66665 6.23719 2.66665 7.49019C2.66665 8.74202 3.18115 9.92152 4.11448 10.8105L12 18.3145L19.8855 10.8105C20.8188 9.92152 21.3333 8.74202 21.3333 7.49019C21.3333 6.23836 20.8188 5.05769 19.8855 4.16869C17.936 2.31369 14.7626 2.31369 12.8131 4.16869L12 4.94336L11.1868 4.16869C10.2115 3.24119 8.93165 2.77802 7.65065 2.77802ZM12 21.4995L2.48815 12.4474C1.09865 11.1255 0.333313 9.36502 0.333313 7.49019C0.333313 5.61536 1.09865 3.85486 2.48815 2.53186C5.07815 0.0666907 9.14398 -0.154976 12 1.86336C14.856 -0.154976 18.9218 0.0666907 21.5118 2.53186C22.9013 3.85486 23.6666 5.61536 23.6666 7.49019C23.6666 9.36502 22.9013 11.1255 21.5118 12.4474L12 21.4995Z"
+                        fill="#101010"
+                      />
+                    </svg>
+                  </button>
+                  <button class="products__items-delete-btn" type="button">
+                    <svg
+                      class="products__delete-icon"
+                      width="20"
+                      height="24"
+                      viewBox="0 0 20 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15.8334 7.33334C16.4777 7.33334 17 7.85567 17 8.5V20.1667C17 22.0997 15.433 23.6667 13.5 23.6667H6.50002C4.56702 23.6667 3.00002 22.0997 3.00002 20.1667V8.5C3.00002 7.85567 3.52235 7.33334 4.16669 7.33334H15.8334ZM14.6667 9.66667H5.33335V20.1667C5.33335 20.811 5.85569 21.3333 6.50002 21.3333H13.5C14.1444 21.3333 14.6667 20.811 14.6667 20.1667V9.66667ZM6.50002 1.5C6.50002 0.85567 7.02235 0.333336 7.66669 0.333336H12.3334C12.9777 0.333336 13.5 0.85567 13.5 1.5V2.66667H18.1667C18.811 2.66667 19.3334 3.189 19.3334 3.83334C19.3334 4.47767 18.811 5 18.1667 5H1.83335C1.18902 5 0.666687 4.47767 0.666687 3.83334C0.666687 3.189 1.18902 2.66667 1.83335 2.66667H6.50002V1.5Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="products__counter">
+                  <button class="products__btn-minus">
+                    <svg
+                      width="14"
+                      height="2"
+                      viewBox="0 0 14 2"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.16665 0.166664H12.8333C13.2935 0.166664 13.6666 0.53976 13.6666 0.999998C13.6666 1.46023 13.2935 1.83333 12.8333 1.83333H1.16665C0.706409 1.83333 0.333313 1.46023 0.333313 0.999998C0.333313 0.53976 0.706409 0.166664 1.16665 0.166664Z"
+                        fill="#404040"
+                      />
+                    </svg>
+                  </button>
+                  <span class="products__btn-quantity">1</span>
+                  <button class="products__btn-plus">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.99998 0.333336C7.46022 0.333336 7.83331 0.706432 7.83331 1.16667V6.16667H12.8333C13.2935 6.16667 13.6666 6.53976 13.6666 7C13.6666 7.46024 13.2935 7.83333 12.8333 7.83333H7.83331V12.8333C7.83331 13.2936 7.46022 13.6667 6.99998 13.6667C6.53974 13.6667 6.16665 13.2936 6.16665 12.8333V7.83333H1.16665C0.706409 7.83333 0.333313 7.46024 0.333313 7C0.333313 6.53976 0.706409 6.16667 1.16665 6.16667H6.16665V1.16667C6.16665 0.706432 6.53974 0.333336 6.99998 0.333336Z"
+                        fill="#404040"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="products__item">
+              <img
+                class="products__items-img"
+                src="images/photo-camera.png"
+                alt="Фотоаппарат"
+              />
+              <div class="products__info">
+                <a class="products__info-name" href="#">
+                  Фотоаппарат зеркальный Nikon D3400 + AF-P 18-55 VR Black
+                </a>
+                <p class="products__info-article-number">Арт.: Т110</p>
+              </div>
+              <p class="products__info-prices">
+                <span class="products__info-price-new"
+                  >28 490,50
+                  <span class="products__info-prices-currency">₽</span></span
+                >
+                <span class="products__info-price-old"
+                  >29 990,00
+                  <span class="products__info-prices-currency">₽</span></span
+                >
+              </p>
+              <div class="products__actions">
+                <div class="products__block-like-delete">
+                  <button class="products__like-btn" type="button">
+                    <svg
+                      class="products__like-icon"
+                      width="24"
+                      height="22"
+                      viewBox="0 0 24 22"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7.65065 2.77802C6.36965 2.77802 5.08981 3.24119 4.11448 4.16869C3.18115 5.05769 2.66665 6.23719 2.66665 7.49019C2.66665 8.74202 3.18115 9.92152 4.11448 10.8105L12 18.3145L19.8855 10.8105C20.8188 9.92152 21.3333 8.74202 21.3333 7.49019C21.3333 6.23836 20.8188 5.05769 19.8855 4.16869C17.936 2.31369 14.7626 2.31369 12.8131 4.16869L12 4.94336L11.1868 4.16869C10.2115 3.24119 8.93165 2.77802 7.65065 2.77802ZM12 21.4995L2.48815 12.4474C1.09865 11.1255 0.333313 9.36502 0.333313 7.49019C0.333313 5.61536 1.09865 3.85486 2.48815 2.53186C5.07815 0.0666907 9.14398 -0.154976 12 1.86336C14.856 -0.154976 18.9218 0.0666907 21.5118 2.53186C22.9013 3.85486 23.6666 5.61536 23.6666 7.49019C23.6666 9.36502 22.9013 11.1255 21.5118 12.4474L12 21.4995Z"
+                        fill="#101010"
+                      />
+                    </svg>
+                  </button>
+                  <button class="products__items-delete-btn" type="button">
+                    <svg
+                      class="products__delete-icon"
+                      width="20"
+                      height="24"
+                      viewBox="0 0 20 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15.8334 7.33334C16.4777 7.33334 17 7.85567 17 8.5V20.1667C17 22.0997 15.433 23.6667 13.5 23.6667H6.50002C4.56702 23.6667 3.00002 22.0997 3.00002 20.1667V8.5C3.00002 7.85567 3.52235 7.33334 4.16669 7.33334H15.8334ZM14.6667 9.66667H5.33335V20.1667C5.33335 20.811 5.85569 21.3333 6.50002 21.3333H13.5C14.1444 21.3333 14.6667 20.811 14.6667 20.1667V9.66667ZM6.50002 1.5C6.50002 0.85567 7.02235 0.333336 7.66669 0.333336H12.3334C12.9777 0.333336 13.5 0.85567 13.5 1.5V2.66667H18.1667C18.811 2.66667 19.3334 3.189 19.3334 3.83334C19.3334 4.47767 18.811 5 18.1667 5H1.83335C1.18902 5 0.666687 4.47767 0.666687 3.83334C0.666687 3.189 1.18902 2.66667 1.83335 2.66667H6.50002V1.5Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="products__counter">
+                  <button class="products__btn-minus">
+                    <svg
+                      width="14"
+                      height="2"
+                      viewBox="0 0 14 2"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.16665 0.166664H12.8333C13.2935 0.166664 13.6666 0.53976 13.6666 0.999998C13.6666 1.46023 13.2935 1.83333 12.8333 1.83333H1.16665C0.706409 1.83333 0.333313 1.46023 0.333313 0.999998C0.333313 0.53976 0.706409 0.166664 1.16665 0.166664Z"
+                        fill="#404040"
+                      />
+                    </svg>
+                  </button>
+                  <span class="products__btn-quantity">1</span>
+                  <button class="products__btn-plus">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.99998 0.333336C7.46022 0.333336 7.83331 0.706432 7.83331 1.16667V6.16667H12.8333C13.2935 6.16667 13.6666 6.53976 13.6666 7C13.6666 7.46024 13.2935 7.83333 12.8333 7.83333H7.83331V12.8333C7.83331 13.2936 7.46022 13.6667 6.99998 13.6667C6.53974 13.6667 6.16665 13.2936 6.16665 12.8333V7.83333H1.16665C0.706409 7.83333 0.333313 7.46024 0.333313 7C0.333313 6.53976 0.706409 6.16667 1.16665 6.16667H6.16665V1.16667C6.16665 0.706432 6.53974 0.333336 6.99998 0.333336Z"
+                        fill="#404040"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="products__item">
+              <img
+                class="products__items-img"
+                src="images/photo-camera.png"
+                alt="Фотоаппарат"
+              />
+              <div class="products__info">
+                <a class="products__info-name" href="#">
+                  Фотоаппарат зеркальный Nikon D3400 + AF-P 18-55 VR Black
+                </a>
+                <p class="products__info-article-number">Арт.: Т110</p>
+              </div>
+              <p class="products__info-prices">
+                <span class="products__info-price-new"
+                  >28 490,50
+                  <span class="products__info-prices-currency">₽</span></span
+                >
+                <span class="products__info-price-old"
+                  >29 990,00
+                  <span class="products__info-prices-currency">₽</span></span
+                >
+              </p>
+              <div class="products__actions">
+                <div class="products__block-like-delete">
+                  <button class="products__like-btn" type="button">
+                    <svg
+                      class="products__like-icon"
+                      width="24"
+                      height="22"
+                      viewBox="0 0 24 22"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M7.65065 2.77802C6.36965 2.77802 5.08981 3.24119 4.11448 4.16869C3.18115 5.05769 2.66665 6.23719 2.66665 7.49019C2.66665 8.74202 3.18115 9.92152 4.11448 10.8105L12 18.3145L19.8855 10.8105C20.8188 9.92152 21.3333 8.74202 21.3333 7.49019C21.3333 6.23836 20.8188 5.05769 19.8855 4.16869C17.936 2.31369 14.7626 2.31369 12.8131 4.16869L12 4.94336L11.1868 4.16869C10.2115 3.24119 8.93165 2.77802 7.65065 2.77802ZM12 21.4995L2.48815 12.4474C1.09865 11.1255 0.333313 9.36502 0.333313 7.49019C0.333313 5.61536 1.09865 3.85486 2.48815 2.53186C5.07815 0.0666907 9.14398 -0.154976 12 1.86336C14.856 -0.154976 18.9218 0.0666907 21.5118 2.53186C22.9013 3.85486 23.6666 5.61536 23.6666 7.49019C23.6666 9.36502 22.9013 11.1255 21.5118 12.4474L12 21.4995Z"
+                        fill="#101010"
+                      />
+                    </svg>
+                  </button>
+                  <button class="products__items-delete-btn" type="button">
+                    <svg
+                      class="products__delete-icon"
+                      width="20"
+                      height="24"
+                      viewBox="0 0 20 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M15.8334 7.33334C16.4777 7.33334 17 7.85567 17 8.5V20.1667C17 22.0997 15.433 23.6667 13.5 23.6667H6.50002C4.56702 23.6667 3.00002 22.0997 3.00002 20.1667V8.5C3.00002 7.85567 3.52235 7.33334 4.16669 7.33334H15.8334ZM14.6667 9.66667H5.33335V20.1667C5.33335 20.811 5.85569 21.3333 6.50002 21.3333H13.5C14.1444 21.3333 14.6667 20.811 14.6667 20.1667V9.66667ZM6.50002 1.5C6.50002 0.85567 7.02235 0.333336 7.66669 0.333336H12.3334C12.9777 0.333336 13.5 0.85567 13.5 1.5V2.66667H18.1667C18.811 2.66667 19.3334 3.189 19.3334 3.83334C19.3334 4.47767 18.811 5 18.1667 5H1.83335C1.18902 5 0.666687 4.47767 0.666687 3.83334C0.666687 3.189 1.18902 2.66667 1.83335 2.66667H6.50002V1.5Z"
+                        fill="black"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <div class="products__counter">
+                  <button class="products__btn-minus">
+                    <svg
+                      width="14"
+                      height="2"
+                      viewBox="0 0 14 2"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.16665 0.166664H12.8333C13.2935 0.166664 13.6666 0.53976 13.6666 0.999998C13.6666 1.46023 13.2935 1.83333 12.8333 1.83333H1.16665C0.706409 1.83333 0.333313 1.46023 0.333313 0.999998C0.333313 0.53976 0.706409 0.166664 1.16665 0.166664Z"
+                        fill="#404040"
+                      />
+                    </svg>
+                  </button>
+                  <span class="products__btn-quantity">1</span>
+                  <button class="products__btn-plus">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M6.99998 0.333336C7.46022 0.333336 7.83331 0.706432 7.83331 1.16667V6.16667H12.8333C13.2935 6.16667 13.6666 6.53976 13.6666 7C13.6666 7.46024 13.2935 7.83333 12.8333 7.83333H7.83331V12.8333C7.83331 13.2936 7.46022 13.6667 6.99998 13.6667C6.53974 13.6667 6.16665 13.2936 6.16665 12.8333V7.83333H1.16665C0.706409 7.83333 0.333313 7.46024 0.333313 7C0.333313 6.53976 0.706409 6.16667 1.16665 6.16667H6.16665V1.16667C6.16665 0.706432 6.53974 0.333336 6.99998 0.333336Z"
+                        fill="#404040"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="products__total-price">
+            <div class="products__total-common-block">
+              <p class="products__total-text-block">
+                <span class="products__total-text">Итого</span>
+                <span class="products__total-text"
+                  >85 471,50<span class="products__total-text">₽</span></span
+                >
+              </p>
+              <div class="products__total-order-amount-block">
+                <span class="products__total-order-amount"
+                  >Общая сумма заказа</span
+                >
+                <span class="products__total-order-amount"
+                  >89 970,00<span class="products__total-order-amount"
+                    >₽</span
+                  ></span
+                >
+              </div>
+              <div class="products__discount-block">
+                <span class="products__discount-text">Скидка</span
+                ><span class="products__discount-text"
+                  >4 498,50<span class="products__discount-text">₽</span></span
+                >
+              </div>
+              <p class="products__promo-code-text">Промокод</p>
+              <div class="products__total-form-block">
+                <form
+                  id="activatePromo"
+                  class="products__total-form"
+                  action="#"
+                  name="send-form"
+                  novalidate=""
+                >
+                  <fieldset class="products__input-container">
+                    <input
+                      class="products__form-name"
+                      type="text"
+                      name="name"
+                      id="promocode"
+                      value=""
+                      placeholder="Введите промокод"
+                      minlength="2"
+                      maxlength="40"
+                      required=""
+                    />
+                    <button class="products__form-btn-activate" type="submit">
+                      Активировать
+                    </button>
+                  </fieldset>
+                </form>
+                <button
+                  form="activatePromo"
+                  class="products__form-btn-send"
+                  type="submit"
+                >
+                  Оформить заказ
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__columns">
+          <div class="footer__main-columns">
+            <a class="footer__logo-link" href="#"
+              ><img
+                class="logo logo_place_footer"
+                src="images/Logo.svg"
+                alt="Логотип"
+            /></a>
+            <div class="footer__three-columns">
+              <nav class="footer__column footer__column_content_info">
+                <h4 class="footer__column-heading">Покупателям</h4>
+                <!--колонка ссылок меню-->
+                <ul class="footer__column-links">
+                  <li class="footer__column-link">
+                    <a class="footer__column-item" href="#">Акции</a>
+                  </li>
+                  <li class="footer__column-link">
+                    <a class="footer__column-item" href="#">Оплата</a>
+                  </li>
+                  <li class="footer__column-link">
+                    <a class="footer__column-item" href="#">Доставка</a>
+                  </li>
+                  <li class="footer__column-link">
+                    <a class="footer__column-item" href="#">Гарантия</a>
+                  </li>
+                  <li class="footer__column-link">
+                    <a class="footer__column-item" href="#">Вопросы и ответы</a>
+                  </li>
+                </ul>
+              </nav>
+              <div class="footer__two-columns">
+                <nav class="footer__column footer__column_content_company">
+                  <h4 class="footer__column-heading">Компания</h4>
+                  <ul class="footer__column-links">
+                    <li class="footer__column-link">
+                      <a class="footer__column-item" href="#">Блог</a>
+                    </li>
+                    <li class="footer__column-link">
+                      <a class="footer__column-item" href="#">Контакты</a>
+                    </li>
+                  </ul>
+                </nav>
+
+                <nav class="footer__column footer__column_content_social">
+                  <h4 class="footer__column-heading">Соцсети</h4>
+                  <ul class="footer__column-links">
+                    <li class="footer__column-link">
+                      <a class="footer__column-item" target="_blank" href="#"
+                        >ВКонтакте</a
+                      >
+                    </li>
+                    <li class="footer__column-link">
+                      <a class="footer__column-item" target="_blank" href="#"
+                        >instagram</a
+                      >
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="footer__buttons-column">
+            <button class="footer__btn-call" type="button">
+              <img
+                class="footer__btn-call-img"
+                src="images/telephone.svg"
+                alt="Телефонная трубка"
+              />Заказать звонок
+            </button>
+            <button class="footer__btn-up" type="button">
+              <img
+                class="footer__btn-up-img"
+                src="images/arr-up.svg"
+                alt="Стрелка вверх"
+              />
+            </button>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>

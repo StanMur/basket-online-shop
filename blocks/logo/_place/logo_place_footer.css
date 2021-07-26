@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+  .logo_place_footer {
+    margin: 0 auto;
+    display: block;
+  }
+}

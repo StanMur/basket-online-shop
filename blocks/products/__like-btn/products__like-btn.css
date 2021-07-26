@@ -1,0 +1,17 @@
+.products__like-btn {
+    border: none;
+    fill: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    outline: none;
+    min-width: 23px;
+    min-height: 21px;
+    padding: 0;
+  }
+  
+  .products__like-btn:hover path {
+    fill: #508b8c;
+  }

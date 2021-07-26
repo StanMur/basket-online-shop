@@ -1,0 +1,17 @@
+.header__form-btn {
+  position: absolute;
+  outline: none;
+  background: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  border: none;
+  width: 15px;
+  height: 15px;
+  top: 8px;
+  left: 5px;
+}
+
+@media (max-width: 767px) {
+  .header__form-btn {
+    left: 8px;
+  }
+}

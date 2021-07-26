@@ -1,0 +1,6 @@
+@media (max-width: 767px) {
+    .products__delete-icon {
+      width: 15px;
+      height: 18px;
+    }
+}  

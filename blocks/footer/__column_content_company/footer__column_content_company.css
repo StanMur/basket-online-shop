@@ -1,0 +1,9 @@
+.footer__column_content_company {
+  margin-right: 48px;
+}
+
+@media (max-width: 767px) {
+  .footer__column_content_company {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,12 @@
+.footer__column-item {
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #101010;
+  text-decoration: none;
+}
+
+.footer__column-item:hover {
+  opacity: 0.6;
+}

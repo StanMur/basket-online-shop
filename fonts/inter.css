@@ -1,0 +1,46 @@
+
+@font-face {
+  font-family: 'Raleway';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Raleway-Regular.woff2") format("woff2"),
+      url("./Raleway-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./Raleway-Bold.woff2") format("woff2"),
+  url("./Raleway-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Roboto-Regular.woff2") format("woff2"),
+      url("./Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./SourceSansPro-Regular.woff2") format("woff2"),
+      url("./SourceSansPro-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("./SourceSansPro-Bold.woff2") format("woff2"),
+      url("./SourceSansPro-Bold.woff") format("woff");
+}
+

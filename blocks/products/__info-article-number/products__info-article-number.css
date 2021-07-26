@@ -1,0 +1,14 @@
+.products__info-article-number {
+  margin: 8px 0 0 0;
+  font-family: "Raleway", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #808080;
+}
+
+@media (max-width: 767px) {
+  .products__info-article-number {
+    font-size: 12px;
+  }
+}

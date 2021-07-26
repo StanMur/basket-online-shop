@@ -1,0 +1,21 @@
+.products__items {
+  width: 712px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 36px;
+}
+
+@media (max-width: 767px) {
+  .products__items {
+    width: 344px;
+    gap: 40px;
+  }
+}
