@@ -10,7 +10,7 @@
 }
 
 .section__link-back::before {
-  content: url(/../../images/arrow.svg);
+  content: url(../../../images/arrow.svg);
   position: absolute;
   left: -31px;
 }
